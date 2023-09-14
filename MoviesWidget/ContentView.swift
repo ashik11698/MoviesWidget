@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+
+        NavigationView {
+            VStack {
+                List {
+                    ForEach(MockData.allMovies, id: \.self) { movie in
+                        MovieCell(movie: movie)
+                    }
+                }
+            }
+            .navigationTitle("Top Box Office US")
         }
-        .padding()
+        
     }
 }
 

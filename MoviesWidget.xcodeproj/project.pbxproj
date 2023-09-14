@@ -11,6 +11,8 @@
 		0496586C2AB2B41100DCDB74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0496586B2AB2B41100DCDB74 /* ContentView.swift */; };
 		0496586E2AB2B41200DCDB74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0496586D2AB2B41200DCDB74 /* Assets.xcassets */; };
 		049658712AB2B41200DCDB74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049658702AB2B41200DCDB74 /* Preview Assets.xcassets */; };
+		049658782AB2B43400DCDB74 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049658772AB2B43300DCDB74 /* MovieCell.swift */; };
+		0496587A2AB2BE4800DCDB74 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049658792AB2BE4800DCDB74 /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0496586B2AB2B41100DCDB74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0496586D2AB2B41200DCDB74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049658702AB2B41200DCDB74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049658772AB2B43300DCDB74 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		049658792AB2BE4800DCDB74 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				049658692AB2B41100DCDB74 /* MoviesWidgetApp.swift */,
 				0496586B2AB2B41100DCDB74 /* ContentView.swift */,
+				049658772AB2B43300DCDB74 /* MovieCell.swift */,
+				049658792AB2BE4800DCDB74 /* MovieModel.swift */,
 				0496586D2AB2B41200DCDB74 /* Assets.xcassets */,
 				0496586F2AB2B41200DCDB74 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0496586C2AB2B41100DCDB74 /* ContentView.swift in Sources */,
+				0496587A2AB2BE4800DCDB74 /* MovieModel.swift in Sources */,
 				0496586A2AB2B41100DCDB74 /* MoviesWidgetApp.swift in Sources */,
+				049658782AB2B43400DCDB74 /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
