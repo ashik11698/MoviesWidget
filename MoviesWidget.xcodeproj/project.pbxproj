@@ -13,7 +13,42 @@
 		049658712AB2B41200DCDB74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049658702AB2B41200DCDB74 /* Preview Assets.xcassets */; };
 		049658782AB2B43400DCDB74 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049658772AB2B43300DCDB74 /* MovieCell.swift */; };
 		0496587A2AB2BE4800DCDB74 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049658792AB2BE4800DCDB74 /* MovieModel.swift */; };
+		04BE58682AB41E5C00123359 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BE58672AB41E5C00123359 /* WidgetKit.framework */; };
+		04BE586A2AB41E5C00123359 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BE58692AB41E5C00123359 /* SwiftUI.framework */; };
+		04BE586D2AB41E5C00123359 /* WidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE586C2AB41E5C00123359 /* WidgetExtensionBundle.swift */; };
+		04BE586F2AB41E5C00123359 /* WidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE586E2AB41E5C00123359 /* WidgetExtension.swift */; };
+		04BE58712AB41E5E00123359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BE58702AB41E5E00123359 /* Assets.xcassets */; };
+		04BE58752AB41E5E00123359 /* WidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 04BE58652AB41E5C00123359 /* WidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04BE587B2AB41EB500123359 /* MovieEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE587A2AB41EB500123359 /* MovieEntry.swift */; };
+		04BE587D2AB41EC100123359 /* MovieProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE587C2AB41EC100123359 /* MovieProvider.swift */; };
+		04BE58822AB41FE800123359 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049658792AB2BE4800DCDB74 /* MovieModel.swift */; };
+		04BE58862AB4226300123359 /* mediumEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE58852AB4226300123359 /* mediumEntryView.swift */; };
+		04BE588D2AB44BCC00123359 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE588C2AB44BCC00123359 /* Date+Ext.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BE58732AB41E5E00123359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0496585E2AB2B41100DCDB74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BE58642AB41E5C00123359;
+			remoteInfo = WidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04BE58762AB41E5E00123359 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04BE58752AB41E5E00123359 /* WidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		049658662AB2B41100DCDB74 /* MoviesWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -23,6 +58,17 @@
 		049658702AB2B41200DCDB74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		049658772AB2B43300DCDB74 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		049658792AB2BE4800DCDB74 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		04BE58652AB41E5C00123359 /* WidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BE58672AB41E5C00123359 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		04BE58692AB41E5C00123359 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		04BE586C2AB41E5C00123359 /* WidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		04BE586E2AB41E5C00123359 /* WidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtension.swift; sourceTree = "<group>"; };
+		04BE58702AB41E5E00123359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BE58722AB41E5E00123359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BE587A2AB41EB500123359 /* MovieEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieEntry.swift; sourceTree = "<group>"; };
+		04BE587C2AB41EC100123359 /* MovieProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieProvider.swift; sourceTree = "<group>"; };
+		04BE58852AB4226300123359 /* mediumEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mediumEntryView.swift; sourceTree = "<group>"; };
+		04BE588C2AB44BCC00123359 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +79,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BE58622AB41E5C00123359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE586A2AB41E5C00123359 /* SwiftUI.framework in Frameworks */,
+				04BE58682AB41E5C00123359 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -40,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				049658682AB2B41100DCDB74 /* MoviesWidget */,
+				04BE586B2AB41E5C00123359 /* WidgetExtension */,
+				04BE58662AB41E5C00123359 /* Frameworks */,
 				049658672AB2B41100DCDB74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				049658662AB2B41100DCDB74 /* MoviesWidget.app */,
+				04BE58652AB41E5C00123359 /* WidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,6 +131,62 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		04BE58662AB41E5C00123359 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BE58672AB41E5C00123359 /* WidgetKit.framework */,
+				04BE58692AB41E5C00123359 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04BE586B2AB41E5C00123359 /* WidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				04BE588E2AB44D5600123359 /* Extension */,
+				04BE588B2AB44B3E00123359 /* Entry */,
+				04BE588A2AB44B3600123359 /* Provider */,
+				04BE58892AB44B2100123359 /* View */,
+				04BE586C2AB41E5C00123359 /* WidgetExtensionBundle.swift */,
+				04BE586E2AB41E5C00123359 /* WidgetExtension.swift */,
+				04BE58702AB41E5E00123359 /* Assets.xcassets */,
+				04BE58722AB41E5E00123359 /* Info.plist */,
+			);
+			path = WidgetExtension;
+			sourceTree = "<group>";
+		};
+		04BE58892AB44B2100123359 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04BE58852AB4226300123359 /* mediumEntryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04BE588A2AB44B3600123359 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				04BE587C2AB41EC100123359 /* MovieProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		04BE588B2AB44B3E00123359 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				04BE587A2AB41EB500123359 /* MovieEntry.swift */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		04BE588E2AB44D5600123359 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04BE588C2AB44BCC00123359 /* Date+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,15 +197,34 @@
 				049658622AB2B41100DCDB74 /* Sources */,
 				049658632AB2B41100DCDB74 /* Frameworks */,
 				049658642AB2B41100DCDB74 /* Resources */,
+				04BE58762AB41E5E00123359 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04BE58742AB41E5E00123359 /* PBXTargetDependency */,
 			);
 			name = MoviesWidget;
 			productName = MoviesWidget;
 			productReference = 049658662AB2B41100DCDB74 /* MoviesWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		04BE58642AB41E5C00123359 /* WidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BE58792AB41E5E00123359 /* Build configuration list for PBXNativeTarget "WidgetExtensionExtension" */;
+			buildPhases = (
+				04BE58612AB41E5C00123359 /* Sources */,
+				04BE58622AB41E5C00123359 /* Frameworks */,
+				04BE58632AB41E5C00123359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetExtensionExtension;
+			productName = WidgetExtensionExtension;
+			productReference = 04BE58652AB41E5C00123359 /* WidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +237,9 @@
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					049658652AB2B41100DCDB74 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					04BE58642AB41E5C00123359 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
@@ -122,6 +258,7 @@
 			projectRoot = "";
 			targets = (
 				049658652AB2B41100DCDB74 /* MoviesWidget */,
+				04BE58642AB41E5C00123359 /* WidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +270,14 @@
 			files = (
 				049658712AB2B41200DCDB74 /* Preview Assets.xcassets in Resources */,
 				0496586E2AB2B41200DCDB74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BE58632AB41E5C00123359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE58712AB41E5E00123359 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +295,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		04BE58612AB41E5C00123359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BE58822AB41FE800123359 /* MovieModel.swift in Sources */,
+				04BE586D2AB41E5C00123359 /* WidgetExtensionBundle.swift in Sources */,
+				04BE58862AB4226300123359 /* mediumEntryView.swift in Sources */,
+				04BE588D2AB44BCC00123359 /* Date+Ext.swift in Sources */,
+				04BE587D2AB41EC100123359 /* MovieProvider.swift in Sources */,
+				04BE586F2AB41E5C00123359 /* WidgetExtension.swift in Sources */,
+				04BE587B2AB41EB500123359 /* MovieEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BE58742AB41E5E00123359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BE58642AB41E5C00123359 /* WidgetExtensionExtension */;
+			targetProxy = 04BE58732AB41E5E00123359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		049658722AB2B41200DCDB74 /* Debug */ = {
@@ -270,6 +437,7 @@
 		049658752AB2B41200DCDB74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +468,7 @@
 		049658762AB2B41200DCDB74 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -327,6 +496,60 @@
 			};
 			name = Release;
 		};
+		04BE58772AB41E5E00123359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA2RQD88H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.MoviesWidget.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04BE58782AB41E5E00123359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JA2RQD88H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bjit.MoviesWidget.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +567,15 @@
 			buildConfigurations = (
 				049658752AB2B41200DCDB74 /* Debug */,
 				049658762AB2B41200DCDB74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BE58792AB41E5E00123359 /* Build configuration list for PBXNativeTarget "WidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BE58772AB41E5E00123359 /* Debug */,
+				04BE58782AB41E5E00123359 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

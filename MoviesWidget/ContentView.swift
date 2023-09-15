@@ -14,14 +14,13 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 List {
-                    ForEach(MockData.allMovies, id: \.self) { movie in
-                        MovieCell(movie: movie)
+                    ForEach(0..<MockData.allMovies.count, id: \.self) { movieIndex in
+                        MovieCell(serialNumberOfMovie: movieIndex + 1, movie: MockData.allMovies[movieIndex])
                     }
                 }
             }
             .navigationTitle("Top Box Office US")
         }
-        
     }
 }
 

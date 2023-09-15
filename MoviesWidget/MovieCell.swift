@@ -9,6 +9,7 @@ import SwiftUI
 
 struct MovieCell: View {
 
+    let serialNumberOfMovie: Int
     let movie: MovieModel
     
     var body: some View {
@@ -20,7 +21,7 @@ struct MovieCell: View {
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text("\(movie.serialNumberOfMovie).")
+                    Text("\(serialNumberOfMovie).")
                     Text("\(movie.movieName)")
                         
                 }
@@ -61,6 +62,6 @@ struct MovieCell: View {
 
 struct MovieCell_Previews: PreviewProvider {
     static var previews: some View {
-        MovieCell(movie: MockData.movie1)
+        MovieCell(serialNumberOfMovie: 1, movie: MockData.movie1)
     }
 }
